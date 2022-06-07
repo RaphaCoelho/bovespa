@@ -1,0 +1,5 @@
+pandas==1.3.5
+pandas-datareader==0.10.0
+SQLAlchemy==1.4.36
+psycopg2-binary
+openpyxl==3.0.9
