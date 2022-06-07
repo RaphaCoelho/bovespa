@@ -3,3 +3,6 @@
 
 # ignore all spreedsheets
 *.xlsx
+
+# ignore all jupyters notebooks
+*.ipynb
