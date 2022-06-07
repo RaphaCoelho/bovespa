@@ -10,10 +10,6 @@ import warnings
 warnings.filterwarnings('ignore')
 
 def crawler_stocks(stocks, owned, start, end,engine):
-    #db_connection
-    #postgresql+psycopg2://airflow:airflow@postgres/airflow
-    
-    #Variação total
     counter = 0
 
     for stock,stock_type in stocks.items():
@@ -241,7 +237,7 @@ def get_dividends_data(stocks, owned, start, end, engine):
 
 
 def main():
-    conn_string = 'postgresql+psycopg2://postgres:Lara4ever!@host.docker.internal/bovespa_db'
+    conn_string = 'postgresql+psycopg2://user:password@host/db'
     
     engine = create_engine(conn_string)
     #conn = db.connect()
